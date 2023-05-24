@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.background{
+    background: url(./image/bv.jpeg) no-repeat center center/cover;
+    height: calc(100vh + 60px);
+    width: calc(100vw + 60px);
+    z-index: -1;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    filter: blur(px);
+}
+
+.loading_text{
+    color: white;
+    font-size: 40px;
+}
